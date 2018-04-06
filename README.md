@@ -1,3 +1,3 @@
 # R_practice
 
-This repository contains all the Assignments I have completed in R language during my training at Bodacious IT Hub.
+This repository contains all the Assignments I have completed in R language during my Big Data training at Bodacious IT Hub, Jaipur.
