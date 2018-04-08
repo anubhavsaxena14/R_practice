@@ -1,6 +1,6 @@
-fact = function(n)
+fact = function(a)
 {	
-  if(n == 1)
+  if(a == 1)
   {
     return(1);
   }else{
