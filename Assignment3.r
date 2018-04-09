@@ -1,19 +1,25 @@
-i = 1
-n = c(1,2,3,4,5,11,22,33,44,55)
-count = 0
-while(i<=10)
-  n[i] = readline("Enter the value")
-  i = i+1
-}
-i = 1
-while(i<=10)
+count = 1
+max = 0
+prev =  readline("Enter a number")
+while(i < 10)
 {
-  if((n[i+1])>(n[i]))
+  curr = readline("Enter a number")
+  if(curr > prev)
   {
     count = count+1
-  }else{
-    count = 0
   }
-  i = i+1
+  if(count > max)
+  {
+    max = count
+    count=1
+  }else{
+      count=1
+  }
+    prev = curr;
+  }
+if(count > max)
+{
+  print(paste("count is", count))
+}else{
+  print(max);
 }
-print(count)
